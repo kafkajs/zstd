@@ -1,0 +1,44 @@
+{
+  "name": "@kafkajs/zstd",
+  "version": "0.1.0",
+  "description": "A KafkaJS codec for ZStandard compression",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:types": "tsc -p types/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafkajs/zstd.git"
+  },
+  "keywords": [
+    "zstd",
+    "compression",
+    "kafka",
+    "kafkajs",
+    "zstandard"
+  ],
+  "author": "Tommy Brunn <tommy.brunn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kafkajs/zstd/issues"
+  },
+  "homepage": "https://github.com/kafkajs/zstd#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.5",
+    "eslint": "^7.10.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "execa": "^4.0.3",
+    "jest": "^26.5.2",
+    "kafkajs": "^1.14.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "cppzst": "^2.0.6"
+  },
+  "funding": "https://github.com/sponsors/Nevon/"
+}

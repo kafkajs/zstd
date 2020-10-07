@@ -1,0 +1,16 @@
+.DS_Store
+test-report.xml
+junit.xml
+coverage/
+yarn-error.log
+**/*.spec.js
+__tests__
+__snapshots__
+scripts/
+docker-compose.yml
+jest.config.js
+.eslintrc.json
+.eslintignore
+.github/
+types/test.ts
+*.tgz
