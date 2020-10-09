@@ -2,7 +2,9 @@
 
 ZStandard codec for KafkaJS.
 
-**WIP: Currently publishing compressed messages is failing. Not ready for usage yet!**
+> **NOTE**: This codec relies on [cppzst](https://www.npmjs.com/package/cppzst) for compression and decompression. Please divert any issues with cppzst there, and only open issues on this repo in case the version being used here needs to be updated.
+>
+> This package is provided on a best-effort basis. See [#2](https://github.com/kafkajs/zstd/issues/2)
 
 ## Installation
 
