@@ -40,5 +40,8 @@
   "dependencies": {
     "cppzst": "^2.0.6"
   },
-  "funding": "https://github.com/sponsors/Nevon/"
+  "funding": "https://github.com/sponsors/Nevon/",
+  "publishConfig": {
+    "access": "public"
+  }
 }
