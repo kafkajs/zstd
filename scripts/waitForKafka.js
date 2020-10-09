@@ -73,7 +73,7 @@ createTopic(kafkaContainerId, "test-topic-already-exists");
 
 console.log("\nWarming up Kafka...");
 
-const totalRandomTopics = 10;
+const totalRandomTopics = 3;
 console.log(`  -> creating ${totalRandomTopics} random topics...`);
 Array(totalRandomTopics)
   .fill()
