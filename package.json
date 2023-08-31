@@ -6,7 +6,7 @@
   "types": "types/index.d.ts",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "test:watch": "jest --watch",
     "test:types": "tsc -p types/"
   },
@@ -28,17 +28,18 @@
   },
   "homepage": "https://github.com/kafkajs/zstd#readme",
   "devDependencies": {
-    "@types/node": "^14.11.5",
-    "eslint": "^7.10.0",
+    "@babel/preset-env": "^7.22.14",
+    "@types/node": "^14.18.56",
+    "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^3.1.4",
     "execa": "^4.0.3",
-    "jest": "^26.5.2",
-    "kafkajs": "^1.15.0-beta.11",
+    "jest": "^26.6.3",
+    "kafkajs": "^2.2.4",
     "prettier": "^2.1.2",
-    "typescript": "^4.0.3"
+    "typescript": "^4.9.5"
   },
   "dependencies": {
-    "cppzst": "2.0.6"
+    "cppzst": "2.0.12"
   },
   "funding": "https://github.com/sponsors/Nevon/",
   "publishConfig": {

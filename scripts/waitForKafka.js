@@ -37,7 +37,7 @@ const createTopic = (containerId, topicName) => {
   const cmd = `
     docker exec \
       ${containerId} \
-      bash -c "JMX_PORT=9998 kafka-topics --create --if-not-exists --topic ${topicName} --replication-factor 1 --partitions 2 --zookeeper zookeeper:2181 2> /dev/null"
+      bash -c "JMX_PORT=9998 kafka-topics --create --if-not-exists --topic ${topicName} --replication-factor 1 --partitions 2 --bootstrap-server kafka:9092 2> /dev/null"
   `;
 
   return execa.commandSync(cmd, { shell: true }).stdout.toString("utf-8");
