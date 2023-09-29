@@ -8,9 +8,6 @@
         "noImplicitThis": true,
         "strictNullChecks": true,
         "baseUrl": "../",
-        "typeRoots": [
-            "../"
-        ],
         "types": [
             "node"
         ],
